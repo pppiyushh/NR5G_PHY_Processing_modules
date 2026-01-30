@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -O2 -std=c99
 
-SRC = src/scrambling.c
+SRC = src/scrambling.c src/modulation.c
 OBJ = $(SRC:.c=.o)
 
 all: libphy.a
